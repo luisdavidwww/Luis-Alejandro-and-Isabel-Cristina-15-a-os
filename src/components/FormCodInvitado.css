@@ -1,0 +1,488 @@
+.header-container {
+    background-image: url('../images/INVITACION-CARLOS-Y-KATHE_1.jpg');
+    background-color: rgba(0,0,0,0);
+    background-size: cover; /* Ancho fijo de 50rem, altura automática */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 100vh; /* Siempre ocupa toda la pantalla */
+    min-height: 150vh;
+    width: 50rem;
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .header-container-two {
+    background-image: url('../images/INVITACION-CARLOS-Y-KATHE_2.jpg');
+    background-color: rgba(0,0,0,0);
+    background-size: cover; /* Ancho fijo de 50rem, altura automática */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 100vh; /* Siempre ocupa toda la pantalla */
+    min-height: 150vh;
+    width: 50rem;
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+
+  
+  .formInvidatos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem; /* Espacio entre los bloques de tiempo */
+    width: 70%;
+    margin-top: 60%;
+    }
+
+    .title-intro{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-weight: 800;
+    font-size: 4rem;
+    text-decoration: none;
+    letter-spacing: 0px;
+    color: #68483E;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    /* Borde en la fuente */
+    text-shadow: 
+    -0.3px  0.3px 0 #68483E,  
+    }
+
+    .title-input{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    font-family: "Mosseta";
+    font-weight: 800;
+    font-size: 1.3rem;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #68483E;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    /* Borde en la fuente */
+    text-shadow: 
+        -0.3px  0.3px 0 #68483E,  
+    }
+
+    .inputCodigo {
+        background-color: white;         
+        border: 2px solid white;      
+        padding: 10px;                  
+        border-radius: 10px;            
+        font-size: 1rem;                 
+        color: #333;                     
+        outline: none;          
+        font-family: "Mosseta";         
+        transition: border-color 0.3s ease;
+      }
+      .inputCodigo:focus {
+        border-color: #68483E;      
+      }
+      .inputCodigo::placeholder {
+        color: #7a635c; /* Marrón */
+        opacity: 1;     /* Asegura que el color se vea claramente */
+      }
+
+
+
+          
+    .title-Invitado{
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        text-align: center;
+        font-family: "Dancing Script", cursive;
+        font-weight: 800;
+        font-size: 5rem;
+        text-decoration: none;
+        letter-spacing: 1px;
+        color: #ffffff;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        /* Borde en la fuente */
+        text-shadow: 
+            -0.3px  0.3px 0 #ffffff,  
+        }
+    
+
+        .containerbtn{
+          display: flex;
+          justify-content: center;
+          width: 100%;
+        }
+
+        .btn-outline-one{
+          display: flex;
+          justify-content: center;
+          width: 75%;
+          z-index: 100;
+          background-color: #68483E;
+          padding: 0.5rem 1rem;
+          border: 3px solid #68483E;
+          transition: all 0.3s ease-out;
+          border-radius: 50px;
+          text-decoration-line: none;
+          outline: none;
+          cursor: pointer;
+          margin-top: 0rem; 
+          font-family: 'Mosseta';
+          letter-spacing: 2px;
+          font-size: 0.8rem;
+          color: #ffffff;
+          margin-top: 1rem;
+          text-decoration: none;
+      }
+      
+      .btn-outline-one:hover{
+        color: #ffffff;
+        background-color: #0C396B;
+        border: 3px solid #0C396B;
+      }
+
+
+      .text-Invitado{
+        justify-content: center;
+        display: flex;
+        width: 60%;
+        text-align: center;
+        font-family: "Mosseta";
+        font-weight: 500;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        text-decoration: none;
+        letter-spacing: 1px;
+        color: #A3D3E2;
+        margin-top: 3rem;
+        margin-bottom: 0rem;
+        /* Borde en la fuente */
+        text-shadow: 
+            -0.3px  0.3px 0 #68483E,  
+        }
+
+
+        .title-numInvitado{
+          justify-content: center;
+          display: flex;
+          width: 100%;
+          text-align: center;
+          font-family: "Dancing Script", cursive;
+          font-weight: 800;
+          font-size: 5rem;
+          text-decoration: none;
+          letter-spacing: 0px;
+          color: #A3D3E2;
+          margin-top: 0.5rem;
+          margin-bottom: 1rem;
+          /* Borde en la fuente */
+          text-shadow: 
+          -0.3px  0.3px 0 #68483E,  
+          }
+
+
+
+          .containerbtn-two{
+            display: flex;
+            position: absolute;
+            justify-content: center;
+            width: 50%;
+           top: 80%;
+          }
+
+
+          .btn-outline-two{
+            display: flex;
+            justify-content: center;
+            width: 75%;
+            z-index: 100;
+            background-color: #0C396B;
+            padding: 0.5rem 1rem;
+            border: 3px solid #0C396B;
+            transition: all 0.3s ease-out;
+            border-radius: 50px;
+            text-decoration-line: none;
+            outline: none;
+            cursor: pointer;
+            margin-top: 0rem; 
+            font-family: 'Mosseta';
+            letter-spacing: 2px;
+            font-size: 0.8rem;
+            color: #ffffff;
+            margin-top: 1rem;
+            text-decoration: none;
+        }
+        
+        .btn-outline-two:hover{
+          color: #ffffff;
+          background-color: #1682fd;
+          border: 3px solid #1682fd;
+        }
+
+      
+
+
+  
+  @media only screen and (max-width: 960px) { 
+
+    .header-container {
+      background-image: url('../images/INVITACION-CARLOS-Y-KATHE_1.jpg');
+      background-size: cover; /* Ajusta la imagen sin deformarla */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: 95vh; /* Siempre ocupa toda la pantalla */
+      min-height: 95vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+    .header-container-two {
+        background-image: url('../images/INVITACION-CARLOS-Y-KATHE_2.jpg');
+        background-size: cover; /* Ajusta la imagen sin deformarla */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-blend-mode: darken;
+        width: 100%;
+        height: 95vh; /* Siempre ocupa toda la pantalla */
+        min-height: 95vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'PT Sans', sans-serif;
+      }
+
+    .formInvidatos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.5rem; /* Espacio entre los bloques de tiempo */
+        width: 75%;
+        margin-top: 65%;
+    }
+    
+
+    .title-intro{
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        text-align: center;
+        font-family: "Dancing Script", cursive;
+        font-weight: 800;
+        font-size: 1.5rem;
+        text-decoration: none;
+        letter-spacing: 0px;
+        color: #68483E;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        /* Borde en la fuente */
+        text-shadow: 
+        -0.3px  0.3px 0 #68483E,  
+        }
+    
+        .title-input{
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        text-align: center;
+        font-family: "Mosseta";
+        font-weight: 800;
+        font-size: 0.7rem;
+        text-decoration: none;
+        letter-spacing: 1px;
+        color: #68483E;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        /* Borde en la fuente */
+        text-shadow: 
+            -0.3px  0.3px 0 #68483E,  
+        }
+    
+    
+        .inputCodigo {
+            background-color: white;         
+            border: 2px solid white;      
+            padding: 10px;                  
+            border-radius: 10px;            
+            font-size: 1rem;                 
+            color: #333;                     
+            outline: none;          
+            font-family: "Mosseta";         
+            transition: border-color 0.3s ease;
+          }
+          .inputCodigo:focus {
+            border-color: #68483E;      
+          }
+          .inputCodigo::placeholder {
+            color: #7a635c; /* Marrón */
+            opacity: 1;     /* Asegura que el color se vea claramente */
+          }
+    
+
+
+          .containerbtn{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+          }
+          .containerbtn-two{
+            display: flex;
+            position: absolute;
+            justify-content: center;
+            width: 70%;
+           top: 80%;
+          }
+
+          
+
+    .btn-outline-one{
+        display: flex;
+        justify-content: center;
+        width: 75%;
+        z-index: 100;
+        background-color: #68483E;
+        padding: 0.5rem 1rem;
+        border: 3px solid #68483E;
+        transition: all 0.3s ease-out;
+        border-radius: 50px;
+        text-decoration-line: none;
+        outline: none;
+        cursor: pointer;
+        margin-top: 0rem; 
+        font-family: 'Mosseta';
+        letter-spacing: 2px;
+        font-size: 0.8rem;
+        color: #ffffff;
+        margin-top: 1rem;
+        text-decoration: none;
+    }
+    
+    .btn-outline-one:hover{
+      color: #ffffff;
+      background-color: #0C396B;
+      border: 3px solid #0C396B;
+    }
+
+
+
+
+    .container-invitado-acept{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .title-Invitado {
+        justify-content: center;
+        display: flex;
+        width: 75%;
+        text-align: center;
+        font-family: "Dancing Script", cursive;
+        font-weight: 800;
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+        color: #ffffff;
+        margin-top: 0rem;
+        margin-bottom: 2rem;
+      
+        text-decoration: underline;
+        text-decoration-color: #ffffff;
+        text-decoration-thickness: 1px;   /* 👈 grosor más delgado */
+        text-underline-offset: 20px;
+      
+        text-shadow: -0.3px 0.3px 0 #ffffff;
+    }
+
+    .text-Invitado{
+        justify-content: center;
+        display: flex;
+        width: 60%;
+        text-align: center;
+        font-family: "Mosseta";
+        font-weight: 500;
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+        text-decoration: none;
+        letter-spacing: 1px;
+        color: #A3D3E2;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        /* Borde en la fuente */
+        text-shadow: 
+            -0.3px  0.3px 0 #68483E,  
+        }
+    
+
+        .title-numInvitado{
+            justify-content: center;
+            display: flex;
+            width: 100%;
+            text-align: center;
+            font-family: "Dancing Script", cursive;
+            font-weight: 800;
+            font-size: 3rem;
+            text-decoration: none;
+            letter-spacing: 0px;
+            color: #A3D3E2;
+            margin-top: 0.5rem;
+            margin-bottom: 1rem;
+            /* Borde en la fuente */
+            text-shadow: 
+            -0.3px  0.3px 0 #68483E,  
+            }
+        
+
+        
+
+
+            .btn-outline-two{
+                display: flex;
+                justify-content: center;
+                width: 75%;
+                z-index: 100;
+                background-color: #0C396B;
+                padding: 0.5rem 1rem;
+                border: 3px solid #0C396B;
+                transition: all 0.3s ease-out;
+                border-radius: 50px;
+                text-decoration-line: none;
+                outline: none;
+                cursor: pointer;
+                margin-top: 0rem; 
+                font-family: 'Mosseta';
+                letter-spacing: 2px;
+                font-size: 0.8rem;
+                color: #ffffff;
+                margin-top: 1rem;
+                text-decoration: none;
+            }
+            
+            .btn-outline-two:hover{
+              color: #ffffff;
+              background-color: #1682fd;
+              border: 3px solid #1682fd;
+            }
+
+}

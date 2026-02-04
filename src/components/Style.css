@@ -1,0 +1,1184 @@
+.header-container-main {
+    background-image: url('../images/INVITACION 15 años_FONDO 1.jpg');
+    background-color: rgba(0,0,0,0);
+    background-size: cover; /* Ancho fijo de 50rem, altura automática */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    aspect-ratio: 1080 / 1758;
+    width: 50rem;
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .header-container-main-2 {
+    background-image: url('../images/INVITACION 15 años_FONDO 2.jpg');
+    background-color: rgba(0,0,0,0);
+    background-size: cover; /* Ancho fijo de 50rem, altura automática */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    aspect-ratio: 1080 / 2948;
+
+    width: 50rem;
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+    .header-container-main-3 {
+    background-image: url('../images/INVITACION 15 años_FONDO 3.jpg');
+    background-color: rgba(0,0,0,0);
+    background-size: cover; /* Ancho fijo de 50rem, altura automática */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    aspect-ratio: 1080 / 967;
+
+    width: 50rem;
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+   .header-container-main-4 {
+    background-image: url('../images/INVITACION 15 años_FONDO 4.jpg');
+    background-color: rgba(0,0,0,0);
+    background-size: cover; /* Ancho fijo de 50rem, altura automática */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    aspect-ratio: 1080 / 2164;
+
+    width: 50rem;
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header-container-main-5 {
+    background-image: url('../images/INVITACION 15 años_FONDO 5.jpg');
+    background-color: rgba(0,0,0,0);
+    background-size: cover; /* Ancho fijo de 50rem, altura automática */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    aspect-ratio: 1080 / 2164;
+
+    width: 50rem;
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+
+  
+
+.imagen-centrada {
+    max-width: 80%; 
+    max-height: 80%; 
+    object-fit: contain; 
+    display: block; 
+}
+.imagen-top, .imagen-center, .imagen-bottom {
+    max-width: 45%;
+    height: auto;
+    object-fit: contain;
+}
+
+.imagen-top {
+    margin-top: 0px;
+}
+
+.imagen-center {
+    margin-top: 0px;
+}
+
+.imagen-bottom {
+    margin-bottom: 200px;
+}
+
+
+
+
+
+
+  .Second-Container{
+    background-image: url('../images/TARJETA_4.jpg');
+    background-color: rgba(0,0,0,0);
+    background-size: cover; /* Ancho fijo de 50rem, altura automática */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 125vh; /* Siempre ocupa toda la pantalla */
+    min-height: 125vh;
+    width: 50rem;
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Third-Container{
+    background-image: url('../images/INVITACION-CARLOS-Y-KATHE_5.jpg');
+    background-color: rgba(0,0,0,0);
+    background-size: cover; /* Ancho fijo de 50rem, altura automática */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 350vh; /* Siempre ocupa toda la pantalla */
+    min-height: 350vh;
+    width: 50rem;
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .Forth-Container{
+    background-image: url('../images/INVITACION MARIANGEL 2_5.jpg');
+    background-color: rgba(0,0,0,0);
+    background-size: cover; /* Ancho fijo de 50rem, altura automática */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 220vh; /* Siempre ocupa toda la pantalla */
+    min-height: 220vh;
+    width: 50rem;
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Quina-Container{
+    background-image: url('../images/INVITACION-CARLOS-Y-KATHE_7.jpg');
+    background-color: rgba(0,0,0,0);
+    background-size: cover; /* Ancho fijo de 50rem, altura automática */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 370vh; /* Siempre ocupa toda la pantalla */
+    min-height: 370vh;
+    width: 50rem;
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+
+
+  .containerbtn-map{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 70%;
+    top: 18%;
+  }
+
+  .btn-outline-map{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    z-index: 100;
+    background-color: #ffffff;
+    padding: 0.5rem 0rem;
+    transition: all 0.3s ease-out;
+    border-radius: 50px;
+    text-decoration-line: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 0rem; 
+    font-family: 'Mosseta';
+    font-weight: 800;
+    letter-spacing: 0px;
+    font-size: 1.5rem;
+    color: #0C396B;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.btn-outline-map:hover{
+  color: #ffffff;
+  background-color: #3890f5;
+  border: 3px solid #3890f5;
+}
+  
+
+
+
+
+
+.containerbtn-song{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 70%;
+    top: 95%;
+  }
+
+  .btn-outline-song{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    z-index: 100;
+    background-color: #ffffff;
+    padding: 0.5rem 0rem;
+    transition: all 0.3s ease-out;
+    border-radius: 50px;
+    text-decoration-line: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 0rem; 
+    font-family: 'Mosseta';
+    font-weight: 800;
+    letter-spacing: 0px;
+    font-size: 1.5rem;
+    color: #0C396B;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.btn-outline-song:hover{
+  color: #ffffff;
+  background-color: #3890f5;
+  border: 3px solid #3890f5;
+}
+
+
+
+.containerbtn-photo{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 70%;
+    top: 75%;
+  }
+  .containerbtn-photo-one{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 70%;
+    top: 48%;
+  }
+
+  .btn-outline-photo{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    z-index: 100;
+    background-color: #BEA760;
+    padding: 1rem 3rem;
+    transition: all 0.3s ease-out;
+    border-radius: 50px;
+    text-decoration-line: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 0rem; 
+    font-family: 'Mosseta';
+    font-weight: 900;
+    letter-spacing: 0px;
+    font-size: 2rem;
+    color: #ffffff;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.btn-outline-photo:hover{
+  color: #ffffff;
+  background-color: #BEA760;
+}
+
+
+
+
+
+
+.containerbtn-Bank{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 70%;
+    top: 44%;
+  }
+
+  .btn-outline-Bank{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    z-index: 100;
+    background-color: #0C396B;
+    padding: 0.5rem 0rem;
+    border: 3px solid #0C396B;
+    transition: all 0.3s ease-out;
+    border-radius: 50px;
+    text-decoration-line: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 0rem; 
+    font-family: 'Mosseta';
+    font-weight: 800;
+    letter-spacing: 0px;
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.btn-outline-Bank:hover{
+  color: #ffffff;
+  background-color: #2276d6;
+  border: 3px solid #2276d6;
+}
+
+
+    
+    .containerbtn-Ca{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        width: 70%;
+        top: 83%;
+      }
+
+.btn-outline-Ca{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        z-index: 100;
+        background-color: #BEA760;
+        padding: 0.5rem 2.8rem;
+        transition: all 0.3s ease-out;
+        border-radius: 50px;
+        text-decoration-line: none;
+        outline: none;
+        cursor: pointer;
+        margin-top: 0rem; 
+        font-family: 'Butler_Medium';
+        font-weight: 800;
+        letter-spacing: 1px;
+        font-size: 1.5rem;
+        color: #ffffff;
+        margin-top: 1rem;
+        text-decoration: none;
+    }
+
+        .btn-outline-Ca-spam{
+        position: relative;
+        top: 0%;
+        font-family: 'Romantic_Lovely';
+        letter-spacing: 2px;
+        font-size: 2rem;
+        line-height: 1.5rem;
+        color: #ffffff;
+        text-decoration: none;
+        margin: 0px;
+        padding: 0px;
+    }
+.btn-outline-Ca:hover{
+  color: #ffffff;
+  background-color: #BEA760;
+}
+
+
+
+    .containerbtn-Cb{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        width: 70%;
+        top: 90%;
+      }
+      .btn-outline-Cb{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        z-index: 100;
+        background-color: #BEA760;
+        padding: 0.5rem 2.8rem;
+        transition: all 0.3s ease-out;
+        border-radius: 50px;
+        text-decoration-line: none;
+        outline: none;
+        cursor: pointer;
+        margin-top: 0rem; 
+        font-family: 'Butler_Medium';
+        font-weight: 800;
+        letter-spacing: 1px;
+        font-size: 1.5rem;
+        color: #ffffff;
+        margin-top: 1rem;
+        text-decoration: none;
+    }
+    .btn-outline-cb-spam{
+        position: relative;
+        top: 0%;
+        font-family: 'Romantic_Lovely';
+        letter-spacing: 2px;
+        font-size: 2rem;
+        line-height: 1.5rem;
+        color: #ffffff;
+        text-decoration: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+
+
+
+
+.slider-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 40rem;
+  }
+  .slider-container-two {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 100rem;
+  }
+  .slider-container .slick-slide > div {
+    height: 500px; /* o lo que necesites */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+  }
+
+  .contenedorImg {
+    display: flex !important;
+    justify-content: center !important; /* Centra horizontalmente */
+    width: 100%;
+  }
+  
+  .imgCarousel {
+    width: 350px;
+    align-items: center;
+    height: auto;
+    z-index: 1;
+  }
+
+  .contenedor__ig{
+    display: flex;
+    position: absolute;
+    top:91%
+  }
+  .contenedor__ig_p{
+    font-family: 'Butler_Medium';
+    text-decoration: none;
+        font-weight: 500;
+        letter-spacing: 0px;
+        font-size: 1.5rem;
+        color: #ffffff;
+  }
+
+
+
+    .Container__Anillo{
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      top:87%;
+    }
+
+        .containerbtn-ulti{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        width: 70%;
+        top: 60%;
+      }
+
+      .btn-outline-ulti{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        z-index: 100;
+        background-color: #9FB09D;
+        padding: 1.5rem 0rem;
+        transition: all 0.3s ease-out;
+        border-radius: 50px;
+        text-decoration-line: none;
+        outline: none;
+        cursor: pointer;
+        margin-top: 0rem; 
+        font-family: 'Mosseta';
+        font-weight: 800;
+        letter-spacing: 1px;
+        font-size: 1.5rem;
+        color: #ffffff;
+        margin-top: 1rem;
+        text-decoration: none;
+    }
+
+  
+  @media only screen and (max-width: 960px) { 
+
+    .header-container-main {
+    /* 1. Apunta a la imagen */
+    background-image: url('../images/INVITACION 15 años_FONDO 1.jpg');
+    
+    /* 2. Cubre todo el espacio sin deformar */
+    background-size: contain; /* La imagen se ajusta para mostrarse completa */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    width: 100%;
+    /* Usamos las medidas exactas de tu imagen */
+    aspect-ratio: 1080 / 1758;
+
+    
+    /* 4. Centrado de contenido */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    .header-container-main-2 {
+      background-image: url('../images/INVITACION 15 años_FONDO 2.jpg');
+      /* 2. Cubre todo el espacio sin deformar */
+      background-size: contain; /* La imagen se ajusta para mostrarse completa */
+      background-position: top;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      /* Usamos las medidas exactas de tu imagen */
+      aspect-ratio: 1080 / 2948;
+
+      
+      /* 4. Centrado de contenido */
+      display: flex;
+      flex-direction: column;
+    
+      /* Cambiamos center por space-between para mandarlas a los extremos */
+      justify-content: space-between; 
+      align-items: center;
+    
+      /* Añadimos padding para que las imágenes no peguen literal al borde */
+      padding: 5% 0; 
+      box-sizing: border-box;
+    }
+
+    .header-container-main-3 {
+    /* 1. Apunta a la imagen */
+    background-image: url('../images/INVITACION 15 años_FONDO 3.jpg');
+    
+    /* 2. Cubre todo el espacio sin deformar */
+    background-size: contain; /* La imagen se ajusta para mostrarse completa */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    width: 100%;
+    /* Usamos las medidas exactas de tu imagen */
+    aspect-ratio: 1080 / 967;
+
+    
+    /* 4. Centrado de contenido */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+
+    
+
+    .header-container-main-4 {
+      background-image: url('../images/INVITACION 15 años_FONDO 4.jpg');
+      /* 2. Cubre todo el espacio sin deformar */
+      background-size: contain; /* La imagen se ajusta para mostrarse completa */
+      background-position: top;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      /* Usamos las medidas exactas de tu imagen */
+      aspect-ratio: 1080 / 2164;
+
+      
+      /* 4. Centrado de contenido */
+      display: flex;
+      flex-direction: column;
+    
+      /* Cambiamos center por space-between para mandarlas a los extremos */
+      justify-content: space-between; 
+      align-items: center;
+    
+      /* Añadimos padding para que las imágenes no peguen literal al borde */
+      /*padding: 5% 0; */
+      box-sizing: border-box;
+    }
+
+    .header-container-main-5 {
+      background-image: url('../images/INVITACION 15 años_FONDO 5.jpg');
+      /* 2. Cubre todo el espacio sin deformar */
+      background-size: contain; /* La imagen se ajusta para mostrarse completa */
+      background-position: top;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      /* Usamos las medidas exactas de tu imagen */
+      aspect-ratio: 1080 / 2164;
+
+      
+      /* 4. Centrado de contenido */
+      display: flex;
+      flex-direction: column;
+    
+      /* Cambiamos center por space-between para mandarlas a los extremos */
+      justify-content: space-between; 
+      align-items: center;
+    
+      /* Añadimos padding para que las imágenes no peguen literal al borde */
+      /*padding: 5% 0; */
+      box-sizing: border-box;
+    }
+
+.imagen-centrada {
+    max-width: 80%; 
+    max-height: 80%; 
+    object-fit: contain; 
+    display: block; 
+}
+.imagen-top, .imagen-center, .imagen-bottom {
+    max-width: 55%;
+    height: auto;
+    object-fit: contain;
+}
+
+.imagen-top {
+    margin-top: 100px;
+}
+
+.imagen-center {
+    margin-top: 20px;
+}
+
+.imagen-bottom {
+    margin-bottom: 60px;
+}
+
+    
+
+
+
+      
+
+    .Second-Container {
+        background-image: url('../images/TARJETA_4.jpg');
+        background-size: cover; /* Ajusta la imagen sin deformarla */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-blend-mode: darken;
+        width: 100%;
+        height: 70vh; /* Siempre ocupa toda la pantalla */
+        min-height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'PT Sans', sans-serif;
+      }
+      .Third-Container {
+        background-image: url('../images/INVITACION-CARLOS-Y-KATHE_5.jpg');
+        background-size: cover; /* Ajusta la imagen sin deformarla */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-blend-mode: darken;
+        width: 100%;
+        height: 220vh; /* Siempre ocupa toda la pantalla */
+        min-height: 220vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'PT Sans', sans-serif;
+      }
+      .Third-Container {
+        background-image: url('../images/INVITACION-CARLOS-Y-KATHE_5.jpg');
+        background-size: cover; /* Ajusta la imagen sin deformarla */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-blend-mode: darken;
+        width: 100%;
+        height: 220vh; /* Siempre ocupa toda la pantalla */
+        min-height: 220vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'PT Sans', sans-serif;
+      }
+      .Forth-Container {
+        background-image: url('../images/INVITACION MARIANGEL 2_5.jpg');
+        background-size: cover; /* Ajusta la imagen sin deformarla */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-blend-mode: darken;
+        width: 100%;
+        height: 130vh; /* Siempre ocupa toda la pantalla */
+        min-height: 130vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'PT Sans', sans-serif;
+      }
+
+      .Quina-Container {
+        background-image: url('../images/INVITACION-CARLOS-Y-KATHE_7.jpg');
+        background-size: cover; /* Ajusta la imagen sin deformarla */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-blend-mode: darken;
+        width: 100%;
+        height: 170vh; /* Siempre ocupa toda la pantalla */
+        min-height:170vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'PT Sans', sans-serif;
+      }
+
+
+
+
+
+      .containerbtn-map{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        width: 70%;
+        top: 18%;
+      }
+
+      .btn-outline-map{
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        z-index: 100;
+        background-color: #ffffff;
+        padding: 0.5rem 0rem;
+        transition: all 0.3s ease-out;
+        border-radius: 50px;
+        text-decoration-line: none;
+        outline: none;
+        cursor: pointer;
+        margin-top: 0rem; 
+        font-family: 'Mosseta';
+        font-weight: 800;
+        letter-spacing: 0px;
+        font-size: 0.8rem;
+        color: #0C396B;
+        margin-top: 1rem;
+        text-decoration: none;
+    }
+    
+    .btn-outline-map:hover{
+      color: #ffffff;
+      background-color: #3890f5;
+      border: 3px solid #3890f5;
+    }
+
+
+
+
+
+      .containerbtn-song{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        width: 70%;
+        top: 95%;
+      }
+
+      .btn-outline-song{
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        z-index: 100;
+        background-color: #ffffff;
+        padding: 0.5rem 0rem;
+        transition: all 0.3s ease-out;
+        border-radius: 50px;
+        text-decoration-line: none;
+        outline: none;
+        cursor: pointer;
+        margin-top: 0rem; 
+        font-family: 'Mosseta';
+        font-weight: 800;
+        letter-spacing: 0px;
+        font-size: 0.8rem;
+        color: #0C396B;
+        margin-top: 1rem;
+        text-decoration: none;
+    }
+    
+    .btn-outline-song:hover{
+      color: #ffffff;
+      background-color: #3890f5;
+      border: 3px solid #3890f5;
+    }
+
+
+
+
+
+
+
+
+
+
+    .containerbtn-photo{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        width: 70%;
+        top: 72%;
+      }
+
+        .containerbtn-photo-one{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 70%;
+    top: 46%;
+  }
+
+      .btn-outline-photo{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        z-index: 100;
+        background-color: #BEA760;
+        padding: 1rem 0rem;
+        transition: all 0.3s ease-out;
+        border-radius: 50px;
+        text-decoration-line: none;
+        outline: none;
+        cursor: pointer;
+        margin-top: 0rem; 
+        font-family: 'Butler_Medium';
+        font-weight: 800;
+        letter-spacing: 1px;
+        font-size: 1.3rem;
+        color: #ffffff;
+        margin-top: 1rem;
+        text-decoration: none;
+    }
+    
+    .btn-outline-photo:hover{
+      color: #ffffff;
+      background-color: #BEA760;
+    }
+
+
+
+
+    .containerbtn-Bank{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        width: 70%;
+        top: 44%;
+      }
+
+      .btn-outline-Bank{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        z-index: 100;
+        background-color: #0C396B;
+        padding: 0.5rem 0rem;
+        border: 3px solid #0C396B;
+        transition: all 0.3s ease-out;
+        border-radius: 50px;
+        text-decoration-line: none;
+        outline: none;
+        cursor: pointer;
+        margin-top: 0rem; 
+        font-family: 'Mosseta';
+        font-weight: 800;
+        letter-spacing: 0px;
+        font-size: 0.8rem;
+        color: #ffffff;
+        margin-top: 1rem;
+        text-decoration: none;
+    }
+    
+    .btn-outline-Bank:hover{
+      color: #ffffff;
+      background-color: #2276d6;
+      border: 3px solid #2276d6;
+    }
+
+
+
+
+
+    
+    .containerbtn-Ca{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        width: 70%;
+        top: 81%;
+      }
+    .containerbtn-Cb{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        width: 70%;
+        top: 90%;
+      }
+
+    .containerbtn-ulti{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        width: 70%;
+        top: 50%;
+      }
+
+      .btn-outline-ulti{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        z-index: 100;
+        background-color: #9FB09D;
+        padding: 0.5rem 2.8rem;
+        transition: all 0.3s ease-out;
+        border-radius: 50px;
+        text-decoration-line: none;
+        outline: none;
+        cursor: pointer;
+        margin-top: 0rem; 
+        font-family: 'Butler_Medium';
+        font-weight: 800;
+        letter-spacing: 1px;
+        font-size: 1.1rem;
+        color: #ffffff;
+        margin-top: 1rem;
+        text-decoration: none;
+    }
+
+
+
+
+
+
+
+      .btn-outline-Ca{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        z-index: 100;
+        background-color: #BEA760;
+        padding: 0.5rem 2.8rem;
+        transition: all 0.3s ease-out;
+        border-radius: 50px;
+        text-decoration-line: none;
+        outline: none;
+        cursor: pointer;
+        margin-top: 0rem; 
+        font-family: 'Butler_Medium';
+        font-weight: 800;
+        letter-spacing: 1px;
+        font-size: 1.1rem;
+        color: #ffffff;
+        margin-top: 1rem;
+        text-decoration: none;
+    }
+    .btn-outline-Ca-spam{
+        position: relative;
+        top: 0%;
+        font-family: 'Romantic_Lovely';
+        letter-spacing: 2px;
+        font-size: 2rem;
+        line-height: 1rem;
+        color: #ffffff;
+        text-decoration: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .btn-outline-Ca:hover{
+      color: #ffffff;
+      background-color: #BEA760;
+    }
+
+
+
+     .btn-outline-Cb{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        z-index: 100;
+        background-color: #BEA760;
+        padding: 0.5rem 2.8rem;
+        transition: all 0.3s ease-out;
+        border-radius: 50px;
+        text-decoration-line: none;
+        outline: none;
+        cursor: pointer;
+        margin-top: 0rem; 
+        font-family: 'Butler_Medium';
+        font-weight: 800;
+        letter-spacing: 1px;
+        font-size: 1.1rem;
+        color: #ffffff;
+        margin-top: 1rem;
+        text-decoration: none;
+    }
+    .btn-outline-Cb-spam{
+        position: relative;
+        top: 0%;
+        font-family: 'Romantic_Lovely';
+        letter-spacing: 2px;
+        font-size: 2rem;
+        line-height: 1rem;
+        color: #ffffff;
+        text-decoration: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .btn-outline-Cb:hover{
+      color: #ffffff;
+      background-color: #BEA760;
+    }
+
+
+
+
+    .Container__Anillo{
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      top:87%;
+    }
+
+
+
+
+
+
+
+
+    .slider-container {
+        width: 100%;
+        max-width: 100vw;
+        margin: 0 auto;
+        margin-top: 25rem;
+      }
+      .slider-container-two{
+        width: 100%;
+        max-width: 100vw;
+        margin: 0 auto;
+        margin-top: 53rem;
+      }
+      .slider-container .slick-slide > div {
+        height: 400px; /* o lo que necesites */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+      }
+
+      .contenedorImg {
+        display: flex !important;
+        justify-content: center !important; /* Centra horizontalmente */
+        width: 100%;
+      }
+      
+      .imgCarousel {
+        width: 300px;
+        align-items: center;
+        height: auto;
+        z-index: 1;
+      }
+
+      /* Estilos para los dots del carrusel */
+      .slick-dots li button:before {
+        color: rgb(10, 65, 87) !important; /* Cambia los dots a blanco */
+      }
+
+      /* Dot activo (opcional para cambiar el color del activo también) */
+      .slick-dots li.slick-active button:before {
+        color: rgb(10, 65, 87) !important;  /* También blanco o usa otro color si quieres destacar */
+      }
+
+
+
+
+        .contenedor__ig{
+    display: flex;
+    position: absolute;
+    top:100%
+  }
+  .contenedor__ig_p{
+    font-family: 'Butler_Medium';
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        font-size: 1.1rem;
+        color: #ffffff;
+  }
+
+    }

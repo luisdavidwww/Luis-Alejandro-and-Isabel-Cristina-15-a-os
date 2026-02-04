@@ -1,0 +1,187 @@
+
+/* Fondo oscuro semitransparente */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  padding: 1rem;
+}
+
+/* Contenedor del modal */
+.modal-content {
+    display: flex;
+    flex-direction: column;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 0rem;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Título del invitado */
+.title-InvitadoW {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+/* Texto normal */
+.text-InvitadoW {
+  font-size: 1rem;
+  color: #555;
+  margin: 0.5rem 0;
+}
+
+/* Número de invitados */
+ .title-numInvitadoW{
+          justify-content: center;
+          display: flex;
+          width: 100%;
+          text-align: center;
+          font-family: "Dancing Script", cursive;
+          font-weight: 800;
+          font-size: 5rem;
+          text-decoration: none;
+          letter-spacing: 0px;
+          color: #A3D3E2;
+          margin-top: 0.5rem;
+          margin-bottom: 1rem;
+          /* Borde en la fuente */
+          text-shadow: 
+          -0.3px  0.3px 0 #68483E,  
+          }
+
+/* Contenedor del botón */
+.containerbtn-two {
+  margin-top: 2rem;
+}
+
+/* Botón */
+.btn-outline-two {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: #007BFF;
+  background-color: transparent;
+  border: 2px solid #007BFF;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-two:hover {
+  background-color: #007BFF;
+  color: #fff;
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* RESPONSIVE AJUSTES */
+@media (max-width: 480px) {
+  .modal-content {
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .title-InvitadoW {
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        text-align: center;
+        font-family: "Dancing Script", cursive;
+        font-weight: 800;
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+        color: #0C396B;
+        margin-top: 0rem;
+        margin-bottom: 2rem;
+      
+        text-decoration: underline;
+        text-decoration-color: #ffffff;
+        text-decoration-thickness: 1px;   /* 👈 grosor más delgado */
+        text-underline-offset: 20px;
+      
+        text-shadow: -0.3px 0.3px 0 #ffffff;
+    }
+
+
+  .text-InvitadoW {
+    font-size: 0.95rem;
+    justify-content: center;
+        display: flex;
+        text-align: center;
+        font-family: "Mosseta";
+        font-weight: 500;
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+        text-decoration: none;
+        letter-spacing: 1px;
+        color: #0C396B;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        /* Borde en la fuente */
+        text-shadow: 
+            -0.3px  0.3px 0 #68483E,  
+        }
+
+
+.title-numInvitadoW{
+            justify-content: center;
+            display: flex;
+            width: 100%;
+            text-align: center;
+            font-family: "Dancing Script", cursive;
+            font-weight: 800;
+            font-size: 3rem;
+            text-decoration: none;
+            letter-spacing: 0px;
+            color: #0C396B;
+            margin-top: 0.5rem;
+            margin-bottom: 1rem;
+            /* Borde en la fuente */
+            text-shadow: 
+            -0.3px  0.3px 0 #68483E,  
+            }
+
+  .btn-outline-two {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
+
+
+/* Botón de cerrar (X) */
+.close-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: #999;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.close-button:hover {
+  color: #e74c3c;
+}

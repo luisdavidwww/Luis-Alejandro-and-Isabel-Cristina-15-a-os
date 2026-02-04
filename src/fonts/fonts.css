@@ -1,0 +1,71 @@
+
+@font-face {
+    font-family: 'Aurora-Magnollia';
+    src: url('../fonts/Aurora-Magnollia-Serif-BF6577ba84d8604.otf') format('truetype');
+    font-weight: normal ;
+    font-style: normal ;
+  }
+@font-face {
+    font-family: 'Alignment';
+    src: url('../fonts/Alignment.otf') format('truetype');
+    font-weight: normal ;
+    font-style: normal ;
+  }
+@font-face {
+    font-family: 'Megivia';
+    src: url('../fonts/Megivia Regular.otf') format('truetype');
+    font-weight: normal ;
+    font-style: normal ;
+  }
+  @font-face {
+    font-family: 'Butler_Ultra_Light';
+    src: url('../fonts/Butler_Ultra_Light.otf') format('truetype');
+    font-weight: normal ;
+    font-style: normal ;
+  }
+    @font-face {
+    font-family: 'Butler_Regular';
+    src: url('../fonts/Butler_Regular.otf') format('truetype');
+    font-weight: normal ;
+    font-style: normal ;
+  }
+    @font-face {
+    font-family: 'Butler_Medium';
+    src: url('../fonts/Butler_Medium.otf') format('truetype');
+    font-weight: normal ;
+    font-style: normal ;
+  }
+    @font-face {
+    font-family: 'Butler_Light';
+    src: url('../fonts/Butler_Light.otf') format('truetype');
+    font-weight: normal ;
+    font-style: normal ;
+  }
+  @font-face {
+    font-family: 'Butler_ExtraBold';
+    src: url('../fonts/Butler_ExtraBold.otf') format('truetype');
+    font-weight: normal ;
+    font-style: normal ;
+  }
+  @font-face {
+    font-family: 'Butler_Bold';
+    src: url('../fonts/Butler_Bold.otf') format('truetype');
+    font-weight: normal ;
+    font-style: normal ;
+  }
+  @font-face {
+    font-family: 'Butler_Black';
+    src: url('../fonts/Butler_Black.otf') format('truetype');
+    font-weight: normal ;
+    font-style: normal ;
+  }
+
+
+    @font-face {
+    font-family: 'Romantic_Lovely';
+    src: url('../fonts/Romantic Lovely.ttf') format('truetype');
+    font-weight: normal ;
+    font-style: normal ;
+  }
+  
+  

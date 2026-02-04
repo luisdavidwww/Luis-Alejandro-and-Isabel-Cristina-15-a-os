@@ -1,0 +1,295 @@
+.CuentaRegresiva-container {
+    background-image: url('../images/INVITACION MARIANGEL 2_4.jpg');
+background-color: rgba(0,0,0,0);
+    background-size: cover; /* Ancho fijo de 50rem, altura automática */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 250vh; /* Siempre ocupa toda la pantalla */
+    min-height:250vh;
+    width: 50rem;
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+.containerInfo-Contador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* Si el contador se ve muy pegado a los bordes en móvil, usa esto: */
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: -20%;
+}
+
+.flex-container-main-Conutdown {
+    display: flex;
+    flex-direction: row; /* Asegura que los números estén en línea */
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Espacio entre bloques de tiempo */
+}
+
+ .title-Conutdown{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    font-family:'Alignment';
+    font-size: 5rem;
+    font-weight: 200;
+    text-decoration: none;
+    line-height: 4.5rem;
+    letter-spacing: 0.1px;
+    color: #ffffff;
+    margin-top: 0rem;
+    margin-bottom: 0.2rem;
+  }
+
+
+
+.Sub-title-Conutdown{
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  font-family: "castellar", sans-serif;
+  font-weight: 800;
+  font-size: 1.3rem;
+  text-decoration: none;
+  letter-spacing: 2.0px;
+  color: #ffffff;
+  margin-top: 2rem;
+
+  text-shadow: 
+  -0.3px  0.3px 0 #608BBA,  
+   0.3px  0.3px 0 #608BBA; 
+}
+
+
+
+
+
+
+
+
+
+.flex-container-main-Conutdown {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* Espacio entre los bloques de tiempo */
+    margin-right: 1rem;
+    margin-left: 1rem;
+    }
+  
+  .time-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+  }
+  .time-block-top {
+    display: flex;
+    flex-direction: column;
+    font-family:'Aurora-Magnollia';
+    color: #ffffff;
+    /* Esto asegura que el bloque ignore el centrado general y suba al tope */
+    justify-content: flex-start;
+    margin-top: -5%;
+    position: relative;
+  }
+  
+  .time-value {
+    font-family:'Aurora-Magnollia';
+    font-size: 5rem; /* Tamaño del valor de tiempo */
+    font-weight: 400;
+  }
+  .time-label-point{
+    font-family:'Aurora-Magnollia';
+    font-size: 4rem; /* Tamaño del valor de tiempo */
+    position: relative;
+    margin-right: 0.7rem;
+    margin-left: 0.7rem;
+    
+  }
+  
+  .time-label {
+    font-family:'Megivia';
+    font-size: 2; /* Tamaño del label */
+    letter-spacing: 1px;
+    color: #ffffff; /* Color del texto del label */
+    margin-top: 0px;
+  }
+
+
+  .containerbtn__ConteoRegrisivo{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 40%;
+  }
+
+
+  .btn-outline-NEW {
+  background-color: #00307a;; /* Fondo azul */
+  color: white; /* Texto blanco para contraste */
+  border: 2px solid gold; /* Borde dorado */
+  border-top-left-radius: 35px; /* Esquina superior izquierda redondeada */
+  border-bottom-right-radius: 35px; /* Esquina inferior derecha redondeada */
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 0.7rem 1rem; /* Espaciado interno */
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  font-family: 'Aurora-Magnollia';
+}
+
+.btn-outline-NEW:hover {
+  background-color: #00307a; /* Color al pasar el mouse */
+}
+
+
+
+  @media only screen and (max-width: 960px) { 
+
+    .CuentaRegresiva-container {
+      background-image: url('../images/INVITACION MARIANGEL 2_4.jpg');
+      background-size: cover; /* Ajusta la imagen sin deformarla */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: 150vh; /* Siempre ocupa toda la pantalla */
+      min-height: 150vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+.containerInfo-Contador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* Si el contador se ve muy pegado a los bordes en móvil, usa esto: */
+    padding: 0px;
+    box-sizing: border-box;
+    margin-top: -20%;
+}
+
+
+    .title-Conutdown{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    font-family:'Alignment';
+    font-size: 2.7rem;
+    font-weight: 200;
+    text-decoration: none;
+    line-height: 1.8rem;
+    letter-spacing: 0.1px;
+    color: #ffffff;
+    margin-top: 0rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .time-value {
+    font-family:'Aurora-Magnollia';
+    font-size: 3rem; /* Tamaño del valor de tiempo */
+    font-weight: 400;
+  }
+  .time-label-point{
+    font-family:'Aurora-Magnollia';
+    font-size: 2.5rem; /* Tamaño del valor de tiempo */
+    position: relative;
+    margin-right: 0.2rem;
+    margin-left: 0.2rem;
+  }
+
+  .time-label {
+    font-family:'Aurora-Magnollia';
+    font-size: 0.8rem; /* Tamaño del label */
+    letter-spacing: 1.6px;
+    color: #ffffff; /* Color del texto del label */
+  }
+  .time-label.dia {
+    font-family:'Aurora-Magnollia';
+    font-size: 0.8rem; /* Tamaño del label */
+    letter-spacing: 1.6px;
+    color: #ffffff; /* Color del texto del label */
+  }
+
+  
+
+
+  .flex-container-main-Conutdown {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem; /* Espacio entre los bloques de tiempo */
+    width: 100%;
+    }
+  
+
+  .containerbtn__ConteoRegrisivo{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 40%;
+  }
+
+   .containerbtn__Confirmacion{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 70%;
+  }
+
+    .containerbtn__Datos{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 37%;
+  }
+
+  .btn-outline-NEW {
+  background-color: #728e75;; /* Fondo azul */
+  color: white; /* Texto blanco para contraste */
+  border: 2px solid #cba869; /* Borde dorado */
+  border-top-left-radius: 35px; /* Esquina superior izquierda redondeada */
+  border-bottom-right-radius: 35px; /* Esquina inferior derecha redondeada */
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 0.4rem 2rem; /* Espaciado interno */
+  padding-top: 0.5rem;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  font-family: 'Aurora-Magnollia';
+}
+
+.btn-outline-NEW:hover {
+  background-color: #58945e;; /* Color al pasar el mouse */
+}
+
+
+  
+  }
