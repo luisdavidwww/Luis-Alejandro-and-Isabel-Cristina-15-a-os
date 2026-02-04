@@ -76,6 +76,7 @@ const Segundo = () => {
       <img 
           src={png2} 
           ref={imagenRef2}
+          style={{maxWidth:'60%', marginTop:'45px'}}
           className='imagen-top' 
           alt="Decoración Arriba"
         />
